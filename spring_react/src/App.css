@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #27ff35;
+}
+
+.App-link {
+  color: #fb9300;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 6px solid #6afc7e;
+}
+
+th, td {
+  padding: 10px;
+}
+
+thead {
+  background: url(https://avatars.mds.yandex.net/get-pdb/1025580/e5eec046-881c-4c3d-b128-987495d83182/s1200?webp=false);
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #95ddff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e0e488;
+}
+
+.tableCaption {
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #EC542A;
+  margin : 1px;
+}
+
+.button {
+  text-decoration: none;
+  color: #7f8c8d;
+  background: #fefefe;
+  padding:5px 8px;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  /*margin: 20px auto;*/
+  text-align:center;
+  font: 400 16px verdana;
+
+}
+
+button:after {
+  content: "";
+  background: linear-gradient(to right, #2ecc71 10%, #3498db 10%, #3498db 20%, #8e44ad 20%, #8e44ad 30%, #e67e22 30%, #e67e22 40%, #c0392b 40%, #c0392b 50%, #2ecc71 50%, #2ecc71 60%, #3498db 60%, #3498db 70%, #8e44ad 70%, #8e44ad 80%, #e67e22 80%, #e67e22 90%, #c0392b 90%);
+  background-size: 200% 100%;
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+}
+button:hover {
+  color: #34495e;
+}
+
+.button {
+  display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+  margin-right: 2em; /*убираем правый отступ между блоками*/
+}
+
+label {
+  margin-right: 20px;
+  position: relative;
+}
